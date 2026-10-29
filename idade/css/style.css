@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body#corpo{
+    background-image: url('../img/fundoBebe.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 200px;
+    font-size: 24px;
+}
+div#container-infos{
+    background-color: #fefefe;
+    padding: 50px 00px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(70, 70, 70, 0.369);
+
+    margin-bottom: 10px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+input#anoNascimento{
+    width: 150px;
+    height: 20px;
+    border-radius: 3px;
+    border: 1px solid #484848cd;
+}
+#botao{
+    font-size: 20px;
+    background-color: #6ad7ff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 15px;
+    box-shadow: 5px 3px 10px #48484872;
+}
+#botao:hover{
+    background-color: #28c6ff;
+}
+div.img-idade, #imgIdade{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 20px 0px;
+}
+div#container{
+    background-color: #fefefe;
+    box-shadow: 5px 5px 10px rgba(70, 70, 70, 0.369);
+    padding: 50px 00px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+div#containerResultado{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #b1e6fa;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}

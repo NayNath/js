@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="corpo">
+    <div id="container-infos">
+            <div id="container-sexo">
+                <label for="masculino">Selecione o sexo:</label>
+
+                <input type="radio" id="masculino" name="sexo" checked>
+                <label for="sexo">Masculino</label>
+
+                <input type="radio" id="feminino" name="sexo">
+                <label for="sexo">Feminino</label>
+            </div>
+            <div id="container-nascimento">
+                <label for="">Digite o ano do seu nascimento</label>
+                <input type="number" name="" id="anoNascimento" min="1900" max="2023" placeholder="De 1900 à 2024">
+            </div>    
+            <input id="botao" type="submit" value="Checar" onclick="checar()">
+        </div>
+
+    <div id="container">
+        <div class="img-idade">
+            <img id="imgIdade" src="img/bebeMenino.jpg" alt="">
+        </div>
+
+        <div id="containerResultado">
+            <h2 id="resultado">Bebê menino</h2>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
