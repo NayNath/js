@@ -16,6 +16,7 @@ function adicionar() {
         item.text = `Valor ${num.value} adicionado`
         lista.appendChild(item)
         resultado.innerHTML = ''
+
     } else {
         window.alert(`O valor ${num.value} está fora do intervalo ou já foi adicionado!`)
     }
@@ -35,7 +36,6 @@ function validaLista(n, l) {
         return false
     }
 }
-
 
 function finalizar(){
     let total = valores.length
@@ -60,6 +60,14 @@ function finalizar(){
                                <p>O maior valor da lista é <strong>${Number(valores[valores.length - 1])}</strong></p>
                                <p>Soma dos valores do Vetor: <strong>${soma}</strong></p>
                                <p>A média dos valores da lista é: <strong>${media}</strong>`
+        
+        resultado.style.backgroundColor = "rgb(43, 43, 43)";
+        resultado.style.padding = "100px";
+        resultado.style.margin = "30px";
+        resultado.style.borderRadius = "10px";
+        resultado.style.boxShadow = "5px 5px 12px rgba(6, 173, 117, 0.534)";
+        resultado.style.display = "flex";
+        resultado.style.flexDirection = "column";
         num.focus()
         
     }
